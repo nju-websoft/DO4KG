@@ -1,0 +1,11 @@
+Installation:
+make
+
+Execution:
+bin/construct
+
+
+Command Usage:
+./bin/construct graph_file_name label_file_name
+
+

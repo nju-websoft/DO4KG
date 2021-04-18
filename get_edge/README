@@ -1,0 +1,28 @@
+Installation:
+make
+
+Execution:
+get_edge
+
+
+Command Usage:
+./get_edge edge_type graph_file_name P_num
+
+
+
+edge_type:
+	1 - dw
+	2 - random in [1,100]
+	3 - pf-itf
+	4 - uw
+	5 - fw
+	6 - iwglb
+	7 - iwloc
+
+graph_weighted is for SHL H2H IS-Label and IS-Label-k 
+graph_a is for PLL RXL and SHP
+graph_HL is for HL
+graph_PHL is for PHL
+
+
+and the value of all edges will times P_num

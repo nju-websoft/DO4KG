@@ -1,0 +1,12 @@
+Installation:
+make
+
+Execution:
+bin/construct
+bin/query_distance
+
+
+Command Usage:
+./bin/construct graph_file_name index_file_name
+
+

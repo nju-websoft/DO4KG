@@ -1,0 +1,33 @@
+Installation:
+make
+
+Execution:
+query
+
+
+Command Usage:
+
+for RXL PLL SHP
+./query 1 query.in label_file_name query.out
+
+for SHL
+./query 0 query.in rank_file_name label_file_name query.out
+
+for PL
+./query 2 query.in num_of_landmarks graph_file_name label_file_name query.out
+
+for H2H
+./query 3 query.in label_file_name query.out
+
+for PHL
+./query 4 query.in label_file_name query.out
+
+for IS-Label
+./query 5 query.in label_file_name query.out
+
+for IS-Label-k
+./query 6 query.in lastgraph_file_name label_file_name query.out
+
+
+
+

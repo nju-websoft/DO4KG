@@ -1,0 +1,12 @@
+Installation:
+make
+
+Execution:
+bin/construct_index
+
+
+Command Usage:
+
+./bin/construct_index graph_file_name label_file_name
+
+
