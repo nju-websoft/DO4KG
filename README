@@ -1,2 +1,42 @@
-a: contain PLL,RXL and SHP
-get_edge: get the weighted graph from the original graph
+PLL-RXL-SHP : contain PLL,RXL and SHP
+Akiba, T., Iwata, Y., Yoshida, Y.: Fast exact shortest-path distance queries on largenetworks  by  pruned  landmark  labeling.  In:  SIGMOD  2013.  pp.  349–360  (2013).
+
+Delling, D., Goldberg, A.V., Pajor, T., Werneck, R.F.: Robust distance queries onmassive networks. In: ESA 2014. pp. 321–333 (2014).
+
+Li,  Y.,  U,  L.H.,  Yiu,  M.L.,  Kou,  N.M.:  An  experimental  study  on  hub  label-ing based shortest path algorithms. Proc. VLDB Endow.11(4), 445–457 (2017).
+
+
+
+SHL : contain SHL
+Shi,  Y.,  Cheng,  G.,  Kharlamov,  E.:  Keyword  search  over  knowledge  graphsvia  static  and  dynamic  hub  labelings.  In:  WWW  2020.  pp.  235–245  (2020).
+
+
+H2H : contain H2H
+Ouyang, D., Qin, L., Chang, L., Lin, X., Zhang, Y., Zhu, Q.: When hierarchy meets2-hop-labeling: Efficient shortest distance queries on road networks. In: SIGMOD2018. pp. 709–724 (2018).
+
+PHL : contain PHL
+Akiba, T., Iwata, Y., Kawarabayashi, K., Kawata, Y.: Fast shortest-path distancequeries  on  road  networks  by  pruned  highway  labeling.  In:  ALENEX  2014.  pp.147–154 (2014).
+
+HL : contain HL
+Farhan, M., Wang, Q., Lin, Y., McKay, B.D.: A highly scalable labelling approachfor exact distance queries in complex networks. In: EDBT 2019. pp. 13–24 (2019).
+
+
+
+IS-Label : contain IS-Label
+Fu, A.W., Wu, H., Cheng, J., Wong, R.C.: IS-LABEL: an independent-set basedlabeling scheme for point-to-point distance querying. Proc. VLDB Endow.6(6),457–468 (2013.
+
+IS-Label-k : contain IS-Label-k
+Fu, A.W., Wu, H., Cheng, J., Wong, R.C.: IS-LABEL: an independent-set basedlabeling scheme for point-to-point distance querying. Proc. VLDB Endow.6(6),457–468 (2013.
+
+
+get_edge : get the weighted graph from the original graph
+
+query : query the distance
+
+average-label-size.xlsx : record the average label size in experiments
+
+construction-time.xlsx : record the total time in constructing experiments
+
+total-query-time.xlsx : record the total time in querying experiments
+
+
