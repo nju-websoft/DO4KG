@@ -31,7 +31,7 @@ Fu, A.W., Wu, H., Cheng, J., Wong, R.C.: IS-LABEL: an independent-set basedlabel
 
 get_edge : get the weighted graph from the original graph
 
-query : query the distance
+query : query the shortest distance with labels
 
 average-label-size.xlsx : record the average label size in experiments
 

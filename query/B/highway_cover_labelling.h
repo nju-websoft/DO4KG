@@ -355,8 +355,8 @@ int HighwayLabelling::QueryDistance(int s, int t) {
     que.push(dij{v,0,dir});
     qdist[dir][v] = 0;
   }
-  //int res = QueryDistanceUB_opt(s, t);
-  int res = QueryDistanceUB_naive(s,t);
+  int res = QueryDistanceUB_opt(s, t);
+  //int res = QueryDistanceUB_naive(s,t);
   //if (res==inf) return inf;  
   while (!que.empty()) {
   	dij v=que.top();
